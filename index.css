@@ -1,0 +1,682 @@
+
+*{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero{
+    width: 100vw;
+    /* height: 50vw;    */
+    background-color: rgb(244, 244, 253);
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    width: 100vw;
+    /* border: 1px solid rebeccapurple; */
+
+}
+.loginbtn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    color: green;
+}
+.link {
+    width: 500px;
+    /* border: 1px solid blue; */
+    justify-content: space-between;
+    display: flex;
+
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.logo{
+    width: 100px;
+    /* border: 1px solid black; */
+
+}
+.Nex{
+    width: 100px;
+}
+.bar{
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(109, 212, 109);
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+}
+.menu{
+    display: none;
+}
+.container{
+    width: 100vw;
+    height: 500px;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    display: flex;
+}
+.right{
+    width: 50vw;
+    /* border: 1px solid black; */
+    padding-top: 120px;
+    padding-left: 130px;
+}
+.right h1{
+    width: 450px;
+    /* border: 1px solid red; */
+    font-size: 45px;
+    color: rgb(82, 73, 73);
+    display: flex;
+    flex-direction: column;
+}
+.right h1 span{
+    color: rgb(109, 212, 109);
+}
+.right p{
+    font-size: 13px;
+}
+.right button{
+    background-color:rgb(109, 212, 109);
+    height: 40px;
+    width: 100px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+.left img{
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.heading{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 100px;
+    padding: 30px;
+    padding-left: 260px;
+    padding-right: 120px;
+}
+.icons img{
+    width: 30px;
+}
+.mge{
+    text-align: center;
+}
+.mge h3{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+.target{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 200px;
+    padding-left: 250px;
+}
+.members{
+    width: 150px;
+    border: 1px solid rgb(244, 244, 253);
+    text-align: center;
+    border-radius: 8px;
+
+}
+.national{
+    width: 150px;
+    border: 1px solid rgb(244, 244, 253);
+    text-align: center;
+    border-radius: 8px;
+
+
+}
+.club{
+    width: 150px;
+    border: 1px solid rgb(244, 244, 253);
+    text-align: center;
+    border-radius: 8px;
+
+}
+.target p{
+    font-size: 10px;
+}
+.contain{
+    display: flex;
+
+}
+.contact{
+    width: 48vw;
+    /* border: 1px solid black; */
+    padding-left: 170px;
+}
+.content{
+    width: 60vw;
+    /* border: 1px solid black; */
+    margin-left: 40px;
+    padding: 50px;
+    padding-top: 60px;
+
+}
+.content h3{
+    width: 370px;
+    /* border: 1px solid black; */
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+.content p{
+    width: 370px;
+    font-size: 10px;
+}
+.learn{
+    width: 100px;
+    height: 40px;
+    background-color:  rgb(109, 212, 109);
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+}
+.mother{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 80px;
+    /* border: 1px solid black; */
+    background-color: rgb(244, 244, 253);
+
+}
+.mother-content{
+    /* border: 1px solid black; */
+    width: 400px;
+    padding-left: 50px;
+}
+.mother-content h1 span{
+    color: rgb(109, 212, 109);
+
+}
+.mother-content p{
+    font-size: 10px;
+}
+.price-tag img{
+    width: 200px;
+    margin-right: 60px;
+    
+}
+.design{
+    display: flex;
+    padding-top: 50px;
+}
+.phone{
+    width: 45vw;
+    /* border: 1px solid black; */
+    padding-left: 200px;
+}
+.phone img{
+    width: 350px;
+}
+.design-content{
+    width: 500px;
+    margin-left: 30px;
+}
+.design-content h2{
+    font-size: 30px;
+}
+.design-content p{
+    font-size: 10px;
+}
+.des{
+    height: 40px;
+    width: 100px;
+    background-color:rgb(109, 212, 109) ;
+    margin-top: 40px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+.main-box{
+    background-color: rgb(244, 244, 253);
+
+}
+.box{
+    display: flex;
+    padding-left: 200px;
+    margin-top: 40px;
+
+}
+.box img{
+    width: 300px;
+    margin: 30px;
+}
+.box-icons img{
+    width: 25px;
+    gap: 10px;
+}
+.box-icons{
+    height: 10x;
+    display: flex;
+    width: 700px;
+    align-items: center;
+}
+#cus{
+    width: 130px;
+}
+.box-content{
+    margin-top: 30px;
+    width: 800px;
+}
+.box-content p{
+    font-size: 13px;
+    width: 550px;
+}
+#Tim{
+    font-size: 15px;
+    color:rgb(109, 212, 109) ;
+}
+.mkt{
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 450px;
+    margin-left: 500px;
+}
+.mkt p{
+    font-size: 10px;
+}
+.streamlined{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    padding-left: 240px;
+}
+.creating img{
+    width: 300px;
+}
+.creating{
+    position: relative;
+}
+.one-ren{
+    width: 220px;
+    /* border: 1px solid black; */
+    text-align: center;
+    position: relative;
+    left: 45px;
+    bottom: 90px;
+    background-color: rgb(244, 244, 253);
+    border-radius: 10px;
+    padding-top: 8px;
+}
+
+.saveguard img{
+    width: 300px;
+}
+.saveguard{
+    text-align: center;
+    position: relative;
+
+}
+.manage{
+    width: 220px;
+    /* border: 1px solid black; */
+    position: absolute;
+    bottom: 90px;
+    left: 45px;
+    background-color: rgb(244, 244, 253);
+    border-radius: 10px;
+    text-align: center;
+    text-align: center;
+
+}
+.manage img{
+    width: 200px;
+}
+.revamping img{
+    width: 300px;
+}
+.membership{
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+}
+.membership img{
+    width: 200px;
+}
+.one-ren img{
+    width: 200px;
+}
+.revamping{
+    position: relative;
+}
+.membership{
+    background-color: rgb(244, 244, 253);
+    border-radius: 10px;
+    text-align: center;
+    width: 210px;
+    position: absolute;
+    bottom: 90px;
+    left: 45px;
+    border: 0px;
+}
+.suscipit{
+    /* border: 1px solid black; */
+    width: 500px;
+    text-align: center;
+    margin-left: 450px;
+    margin-bottom: 0px;
+  
+}
+.suscipit h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.suscipit img{
+    width: 150px;
+}
+.tube{
+    /* border: 1px solid black; */
+    width: 200px;
+    display: flex;
+    gap: 20px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    margin-top: 30px; 
+    padding-left: 160px;
+    padding-right: 150px;
+    padding-top: 40px;
+    background-color: #263238;
+    color: white;
+    width:100vw ;
+    height: 250px;
+
+}    
+.copyright{
+    /* border: 1px solid rgb(150, 143, 143); */
+    padding-top: 50px;
+    padding-right: 150px;
+    
+
+}
+.copyright p span{
+    display: flex;
+    flex-direction: column;
+}
+.copyright p{
+    font-size: 13px;
+}
+.coy{
+    /* border: 1px solid black; */
+    width:200px ;
+    margin-left: 80px;
+
+}
+.coy p{
+    font-size: 10px;
+
+}
+#cpy{
+    font-size: 14px;
+}
+.supp{
+    /* border: 1px solid black; */
+    margin-right: 100px;
+
+}
+.supp p{
+    font-size: 10px;
+}
+#sup{
+    font-size: 14px; 
+}
+.date{
+    /* border: 1px solid black; */
+    padding-right: 30px;
+    width: 200px;
+    margin-right: 50px;
+
+}
+.date p{
+    font-size: 14px;
+}
+#email{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(105, 105, 105) ;
+    border: 0px;
+    border-radius: 5px;
+    align-items: center;
+    color: white;
+}
+#neut{
+    width: 130px;
+}
+
+@media (max-width:900px){
+    .menu{
+        display: block;
+    }
+    .link{
+        display: none;
+    }
+    .loginbtn{
+        display: none;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: -70px;
+        margin-left: 100px;
+
+    }
+
+    .hero{
+        background-color: white;
+    }
+    .left{
+        margin-left:80px
+    }
+    .hero-2{
+        padding-top: 500px;
+        margin-top: -70px;
+    }
+    .icons img{
+        margin-right: 0px;
+        padding-left:10px ;
+        
+        
+    }
+    .icons{
+        /* border: 1px solid; */
+        width: 800px;
+        padding-left: 15px;
+
+    }
+    .target{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        gap: 200px;
+        padding-left: 250px
+    } 
+    .members{
+        width: 300px;
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+    .national{
+        width: 300px;
+        border: 1px solid rgb(244, 244, 253);
+        text-align: center;
+        border-radius: 8px;
+        margin-top: -100px;
+    }
+    .club{
+        width: 300px;
+        border: 1px solid rgb(244, 244, 253);
+        text-align: center;
+        border-radius: 8px;
+        margin-top: -100px;
+
+    }
+    .target p{
+        font-size: 20px;
+    }
+    .contact{
+        width: 38vw;
+        padding-left: 0px;
+        padding-right: 150px;
+ 
+    }
+    .content{
+    padding-left: 0px;
+    } 
+    .mother{
+        padding-left: 0px;
+        padding-right: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .mother-content{
+        margin-right:20px ;
+        width: 800px;
+        /* border: 1px solid; */
+        text-align: center;
+        
+    }
+    .price-tag {
+        display: flex;
+        width: 200px;
+        margin-left: 90px; 
+        justify-content: center; 
+        justify-items: center;
+        align-items: center;
+     }
+
+     
+     .phone{
+        width: 40vw;
+        padding-left: 0px;
+        margin-left:40px ;
+
+    }
+    .design-content{
+        width: 500px;
+        margin-left: 0px;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        margin-top: 40px;
+    
+    }
+    .box img{
+        width: 300px;
+        margin-left: 270px;
+    }
+    .box-content{
+        margin-top: 0px;
+        width: 800px;
+        margin-left: 150px;
+        text-align: center;
+    }
+    .box-icons{
+        height: 10x;
+        /* display: flex; */
+        width: 200px;
+        margin-right: 100px;
+        gap: 20px;        
+    }
+    .box-icons img{
+        width: 20px;
+        gap: 0px;
+        margin-left: 0px;
+    }
+    .mkt{
+        text-align: center;
+        /* border: 1px solid black; */
+        width: 450px;
+        margin-left: 200px;
+    }
+    .streamlined{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        gap: 10px;
+        padding-left: 40px;
+    }
+    .saveguard{
+        text-align: center;
+        position: relative;
+        margin-top: -50px;
+        /* width: 400px; */
+    
+    }
+    .manage{
+        width: 220px;
+        /* border: 1px solid black; */
+        position: absolute;
+        bottom: -40px;
+        left: 45px;
+        background-color: rgb(244, 244, 253);
+        border-radius: 10px;
+        text-align: center;
+    }
+    .revamping{
+        position: relative;
+        margin-top: 70px;
+    }
+    .membership{
+        background-color: rgb(244, 244, 253);
+        border-radius: 10px;
+        text-align: center;
+        width: 210px;
+        position: absolute;
+        bottom: -40px;
+        left: 45px;
+        border: 0px;
+    }
+    .suscipit{
+        /* border: 1px solid black; */
+        width: 500px;
+        margin-left: 200px;
+        margin-top: 70px;
+    }
+    .bottom{
+
+    }
+    .bottom{
+        display: flex;
+        padding-left: 40px;
+        padding-right: 20px;
+        padding-top: 40px;
+    }
+    .coy{
+        /* border: 1px solid black; */
+        width:200px;
+        margin-left: -20px;
+    }
+    
+}
